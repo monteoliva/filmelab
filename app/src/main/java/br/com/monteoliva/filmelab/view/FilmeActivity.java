@@ -1,5 +1,6 @@
 package br.com.monteoliva.filmelab.view;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -45,7 +46,9 @@ public class FilmeActivity extends AppCompatActivity {
 
     @Click(R.id.fab)
     public void FloatingButton() {
-        Log.i("FilmeActivity","Floating Button pressed");
+        startActivity(new Intent(this, FilmeInsertActivity_.class));
+        finish();
+        overridePendingTransition( R.anim.righttoleft, R.anim.stable );
     }
 
     /**

@@ -22,6 +22,9 @@
         <activity
             android:name=".view.FilmeActivity_"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.FilmeInsertActivity_"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
