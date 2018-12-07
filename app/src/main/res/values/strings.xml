@@ -2,5 +2,17 @@
     <string name="app_name">FilmeLab</string>
     <string name="action_save">Salvar</string>
 
-    <string name="title_insert">Insert Film</string>
+    <string name="title_insert">Incluir Filme</string>
+
+    <string name="hint_search">Digite o título do filme para a busca</string>
+
+    <string name="field_title">Título:</string>
+    <string name="field_year">Ano:</string>
+    <string name="field_genre">Gênero:</string>
+    <string name="field_director">Diretor:</string>
+    <string name="field_actors">Atores:</string>
+    <string name="field_plot">Descrição:</string>
+
+    <string name="message_insert">Filme incluído com sucesso.</string>
+
 </resources>

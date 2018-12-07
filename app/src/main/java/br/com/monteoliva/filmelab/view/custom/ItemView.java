@@ -19,9 +19,12 @@ import br.com.monteoliva.filmelab.model.FilmeDataBean;
 public class ItemView extends CardView {
     @ViewById(R.id.imgFilm)
     ImageView imageView;
-
     @ViewById(R.id.titleFilm)
     TextView title;
+    @ViewById(R.id.genreFilm)
+    TextView genre;
+    @ViewById(R.id.yearFilm)
+    TextView year;
 
     /**
      * Constructor
@@ -43,12 +46,9 @@ public class ItemView extends CardView {
                 .into(imageView);
 
         title.setText(dataBean.getTitle());
-
-
-
+        year.setText(dataBean.getYear());
+        genre.setText(dataBean.getGenre());
 
         return this;
     }
-
-
 }
